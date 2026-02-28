@@ -12,7 +12,7 @@
 </p>
 
 <p align="center">
-  <a href="#-live-demo">🚀 Live Demo</a> •
+  <a href="#-demo">🎥 Demo</a> •
   <a href="#-features">Features</a> •
   <a href="#-architecture">Architecture</a> •
   <a href="#-getting-started">Getting Started</a> •
@@ -25,9 +25,7 @@
 
 ### Quick Preview
 
-![QuickUI Agent Demo](https://media.giphy.com/media/demo-placeholder.gif)
-
-> 💡 **Try it now**: [quickui-agent.vercel.app](https://quickui-agent.vercel.app) (Demo Link)
+<video src="./Quick-UI-Agent-ezgif.com-crop-video.webm" controls width="100%"></video>
 
 ### Features Showcase
 
@@ -37,19 +35,6 @@
 | **Design Styles** | Modern, Minimal, Glassmorphism, Gradient, Soft UI |
 | **Dual AI Support** | Switch between StepFun & OpenAI |
 | **Live Templates** | 15+ production-ready components |
-
----
-
-## 🚀 Live Demo
-
-**🔗 Online Demo**: [https://quickui-agent.vercel.app](https://quickui-agent.vercel.app)
-
-Experience QuickUI Agent instantly without installation:
-
-- ✨ Generate UI components with AI
-- 🎨 Try different design styles
-- 📱 Preview responsive layouts
-- 📋 Copy production-ready code
 
 ---
 
