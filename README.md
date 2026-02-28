@@ -16,7 +16,6 @@
 </p>
 
 <p align="center">
-  <a href="#-demo">🎥 Demo</a> •
   <a href="#-features">Features</a> •
   <a href="#-architecture">Architecture</a> •
   <a href="#-getting-started">Getting Started</a> •
@@ -25,22 +24,6 @@
 
 ---
 
-## 🎥 Demo
-
-### Quick Preview
-
-<video src="./Quick-UI-Agent-ezgif.com-crop-video.webm" controls width="100%"></video>
-
-### Features Showcase
-
-| Feature | Preview |
-|---------|---------|
-| **AI Generation** | Describe → Generate → Preview in seconds |
-| **Design Styles** | Modern, Minimal, Glassmorphism, Gradient, Soft UI |
-| **Dual AI Support** | Switch between StepFun & OpenAI |
-| **Live Templates** | 15+ production-ready components |
-
----
 
 ## ✨ Features
 
