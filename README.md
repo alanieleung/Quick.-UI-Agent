@@ -430,3 +430,7 @@ SOFTWARE.
 <p align="center">
   <a href="https://github.com/yourusername/quickui-agent/stargazers">⭐ Star us on GitHub</a>
 </p>
+=======
+# Quick.-UI-Agent
+UI Component Generator powered by AI 
+>>>>>>> origin/main
