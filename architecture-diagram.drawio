@@ -1,0 +1,180 @@
+<mxGraphModel dx="1434" dy="780" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
+  <root>
+    <mxCell id="0" />
+    <mxCell id="1" parent="0" />
+    
+    <!-- Title -->
+    <mxCell id="title" value="&lt;b&gt;QuickUI Agent Architecture&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;fontColor=#333333;" vertex="1" parent="1">
+      <mxGeometry x="400" y="20" width="300" height="40" as="geometry" />
+    </mxCell>
+    
+    <!-- User Layer -->
+    <mxCell id="user" value="&lt;b&gt;👤 User&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=14;" vertex="1" parent="1">
+      <mxGeometry x="500" y="80" width="100" height="50" as="geometry" />
+    </mxCell>
+    
+    <!-- Frontend Layer -->
+    <mxCell id="frontend-container" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;strokeWidth=2;arcSize=6;" vertex="1" parent="1">
+      <mxGeometry x="50" y="160" width="1000" height="200" as="geometry" />
+    </mxCell>
+    
+    <mxCell id="frontend-label" value="&lt;b&gt;🎨 Frontend Layer (Next.js 16 + React 19)&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontColor=#333333;" vertex="1" parent="1">
+      <mxGeometry x="70" y="170" width="300" height="30" as="geometry" />
+    </mxCell>
+    
+    <!-- Frontend Components -->
+    <mxCell id="header" value="&lt;b&gt;Header&lt;/b&gt;&lt;br&gt;Navigation" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=12;" vertex="1" parent="1">
+      <mxGeometry x="100" y="210" width="100" height="60" as="geometry" />
+    </mxCell>
+    
+    <mxCell id="prompt-input" value="&lt;b&gt;PromptInput&lt;/b&gt;&lt;br&gt;User Input" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=12;" vertex="1" parent="1">
+      <mxGeometry x="230" y="210" width="100" height="60" as="geometry" />
+    </mxCell>
+    
+    <mxCell id="code-editor" value="&lt;b&gt;CodeEditor&lt;/b&gt;&lt;br&gt;Ace Editor" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=12;" vertex="1" parent="1">
+      <mxGeometry x="360" y="210" width="100" height="60" as="geometry" />
+    </mxCell>
+    
+    <mxCell id="preview" value="&lt;b&gt;Preview&lt;/b&gt;&lt;br&gt;Iframe Render" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=12;" vertex="1" parent="1">
+      <mxGeometry x="490" y="210" width="100" height="60" as="geometry" />
+    </mxCell>
+    
+    <mxCell id="templates" value="&lt;b&gt;Templates&lt;/b&gt;&lt;br&gt;15+ Components" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=12;" vertex="1" parent="1">
+      <mxGeometry x="620" y="210" width="100" height="60" as="geometry" />
+    </mxCell>
+    
+    <mxCell id="docs" value="&lt;b&gt;Documentation&lt;/b&gt;&lt;br&gt;Guide Pages" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=12;" vertex="1" parent="1">
+      <mxGeometry x="750" y="210" width="100" height="60" as="geometry" />
+    </mxCell>
+    
+    <mxCell id="tailwind" value="&lt;b&gt;Tailwind CSS v4&lt;/b&gt;&lt;br&gt;Styling" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontSize=12;" vertex="1" parent="1">
+      <mxGeometry x="880" y="210" width="100" height="60" as="geometry" />
+    </mxCell>
+    
+    <!-- State Management -->
+    <mxCell id="react-state" value="&lt;b&gt;React Hooks&lt;/b&gt;&lt;br&gt;useState / useEffect" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=11;" vertex="1" parent="1">
+      <mxGeometry x="100" y="290" width="120" height="50" as="geometry" />
+    </mxCell>
+    
+    <mxCell id="streaming" value="&lt;b&gt;Streaming UI&lt;/b&gt;&lt;br&gt;Real-time Updates" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=11;" vertex="1" parent="1">
+      <mxGeometry x="250" y="290" width="120" height="50" as="geometry" />
+    </mxCell>
+    
+    <!-- API Layer -->
+    <mxCell id="api-container" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e6f3ff;strokeColor=#0070c0;strokeWidth=2;arcSize=6;" vertex="1" parent="1">
+      <mxGeometry x="50" y="390" width="450" height="150" as="geometry" />
+    </mxCell>
+    
+    <mxCell id="api-label" value="&lt;b&gt;⚙️ API Layer (Next.js API Routes)&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontColor=#333333;" vertex="1" parent="1">
+      <mxGeometry x="70" y="400" width="250" height="30" as="geometry" />
+    </mxCell>
+    
+    <mxCell id="api-route" value="&lt;b&gt;/api/generate&lt;/b&gt;&lt;br&gt;POST Handler" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=12;" vertex="1" parent="1">
+      <mxGeometry x="100" y="440" width="120" height="60" as="geometry" />
+    </mxCell>
+    
+    <mxCell id="streaming-api" value="&lt;b&gt;Streaming&lt;/b&gt;&lt;br&gt;Response" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=12;" vertex="1" parent="1">
+      <mxGeometry x="250" y="440" width="100" height="60" as="geometry" />
+    </mxCell>
+    
+    <mxCell id="provider-switch" value="&lt;b&gt;Provider Switch&lt;/b&gt;&lt;br&gt;StepFun / OpenAI" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=12;" vertex="1" parent="1">
+      <mxGeometry x="380" y="440" width="100" height="60" as="geometry" />
+    </mxCell>
+    
+    <!-- AI Providers -->
+    <mxCell id="ai-container" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f0fff0;strokeColor=#00b050;strokeWidth=2;arcSize=6;" vertex="1" parent="1">
+      <mxGeometry x="550" y="390" width="500" height="150" as="geometry" />
+    </mxCell>
+    
+    <mxCell id="ai-label" value="&lt;b&gt;🤖 AI Providers&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontColor=#333333;" vertex="1" parent="1">
+      <mxGeometry x="570" y="400" width="150" height="30" as="geometry" />
+    </mxCell>
+    
+    <mxCell id="stepfun" value="&lt;b&gt;StepFun (階躍星辰)&lt;/b&gt;&lt;br&gt;step-1-8k&lt;br&gt;💰 Cost-effective" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e6f3ff;strokeColor=#0070c0;fontSize=11;" vertex="1" parent="1">
+      <mxGeometry x="600" y="440" width="140" height="70" as="geometry" />
+    </mxCell>
+    
+    <mxCell id="openai" value="&lt;b&gt;OpenAI&lt;/b&gt;&lt;br&gt;GPT-4o&lt;br&gt;⚡ High Quality" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e6f3ff;strokeColor=#0070c0;fontSize=11;" vertex="1" parent="1">
+      <mxGeometry x="770" y="440" width="120" height="70" as="geometry" />
+    </mxCell>
+    
+    <!-- External Services -->
+    <mxCell id="external-container" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff0f0;strokeColor=#c00000;strokeWidth=2;arcSize=6;" vertex="1" parent="1">
+      <mxGeometry x="50" y="570" width="1000" height="100" as="geometry" />
+    </mxCell>
+    
+    <mxCell id="external-label" value="&lt;b&gt;🔗 External Services&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontColor=#333333;" vertex="1" parent="1">
+      <mxGeometry x="70" y="580" width="150" height="30" as="geometry" />
+    </mxCell>
+    
+    <mxCell id="tailwind-cdn" value="&lt;b&gt;Tailwind CDN&lt;/b&gt;&lt;br&gt;Preview Styling" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=11;" vertex="1" parent="1">
+      <mxGeometry x="100" y="620" width="120" height="40" as="geometry" />
+    </mxCell>
+    
+    <mxCell id="font-awesome" value="&lt;b&gt;Font Awesome&lt;/b&gt;&lt;br&gt;Icons" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=11;" vertex="1" parent="1">
+      <mxGeometry x="250" y="620" width="100" height="40" as="geometry" />
+    </mxCell>
+    
+    <mxCell id="google-fonts" value="&lt;b&gt;Google Fonts&lt;/b&gt;&lt;br&gt;Inter" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=11;" vertex="1" parent="1">
+      <mxGeometry x="380" y="620" width="100" height="40" as="geometry" />
+    </mxCell>
+    
+    <mxCell id="vercel" value="&lt;b&gt;Vercel&lt;/b&gt;&lt;br&gt;Deployment" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=11;" vertex="1" parent="1">
+      <mxGeometry x="510" y="620" width="100" height="40" as="geometry" />
+    </mxCell>
+    
+    <!-- Connections -->
+    <mxCell id="conn1" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#666666;strokeWidth=2;" edge="1" parent="1" source="user" target="prompt-input">
+      <mxGeometry relative="1" as="geometry" />
+    </mxCell>
+    
+    <mxCell id="conn2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#666666;strokeWidth=2;" edge="1" parent="1" source="prompt-input" target="api-route">
+      <mxGeometry relative="1" as="geometry">
+        <Array as="points">
+          <mxPoint x="280" y="380" />
+          <mxPoint x="160" y="380" />
+        </Array>
+      </mxGeometry>
+    </mxCell>
+    
+    <mxCell id="conn3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#666666;strokeWidth=2;" edge="1" parent="1" source="api-route" target="stepfun">
+      <mxGeometry relative="1" as="geometry">
+        <Array as="points">
+          <mxPoint x="160" y="520" />
+          <mxPoint x="670" y="520" />
+        </Array>
+      </mxGeometry>
+    </mxCell>
+    
+    <mxCell id="conn4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#666666;strokeWidth=2;" edge="1" parent="1" source="stepfun" target="streaming">
+      <mxGeometry relative="1" as="geometry">
+        <Array as="points">
+          <mxPoint x="670" y="380" />
+          <mxPoint x="310" y="380" />
+        </Array>
+      </mxGeometry>
+    </mxCell>
+    
+    <mxCell id="conn5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#666666;strokeWidth=2;" edge="1" parent="1" source="streaming" target="code-editor">
+      <mxGeometry relative="1" as="geometry">
+        <Array as="points">
+          <mxPoint x="310" y="380" />
+          <mxPoint x="410" y="380" />
+        </Array>
+      </mxGeometry>
+    </mxCell>
+    
+    <mxCell id="conn6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#666666;strokeWidth=2;" edge="1" parent="1" source="code-editor" target="preview">
+      <mxGeometry relative="1" as="geometry" />
+    </mxCell>
+    
+    <mxCell id="conn7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#666666;strokeWidth=2;" edge="1" parent="1" source="preview" target="tailwind-cdn">
+      <mxGeometry relative="1" as="geometry">
+        <Array as="points">
+          <mxPoint x="540" y="570" />
+        </Array>
+      </mxGeometry>
+    </mxCell>
+    
+  </root>
+</mxGraphModel>
