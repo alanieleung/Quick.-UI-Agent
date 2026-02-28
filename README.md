@@ -8,6 +8,10 @@
 </p>
 
 <p align="center">
+  <img src="./Quick-UI-Agent.gif" alt="QuickUI Agent Demo GIF" />
+</p>
+
+<p align="center">
   <b>AI-Powered UI Generator</b> - Create stunning, production-ready UI components with natural language
 </p>
 
